@@ -5,7 +5,6 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var compression = require('compression');
-var routes = require('./routes/routes');
 
 var app = express();
 
@@ -24,7 +23,11 @@ app.use(bodyParser.urlencoded({
 app.use(cookieParser());
 app.use(compression());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(routes); // Binding Routes 
+
+app.get('/', function (req, res, next) {
+  res.sendFile(path.join(__dirname + '/public/home.html'));
+
+});
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
@@ -32,6 +35,7 @@ app.use(function (req, res, next) {
   err.status = 404;
   next(err);
 });
+
 
 //Setup for live loading 
 var server = app.listen(3000, function () {
