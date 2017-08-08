@@ -1,8 +1,14 @@
 body {
   -webkit-font-smoothing: antialiased;
   color: #333;
-  font-family: 'Crimson Text', 'Georgia', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Oswald', sans-serif;
 }
 
 .br-0 {
@@ -15,6 +21,11 @@ body {
 
 .mt-0 {
   margin-top: 0;
+}
+
+.my-2 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .ml {
@@ -52,14 +63,13 @@ body {
 }
 
 a {
-  color: #FFCC00;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 700;
   text-decoration: none;
   font-size: 1.4rem;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .ybg {
@@ -118,7 +128,7 @@ body {
 /* Carousel base class */
 
 .carousel {
-  height: 500px;
+  height: 250px;
   margin-bottom: 60px;
 }
 
@@ -133,8 +143,7 @@ body {
 /* Declare heights because of positioning of img element */
 
 .carousel .item {
-  height: 500px;
-  background-color: #777;
+  height: 250px;
 }
 
 .carousel-inner>.item>img {
@@ -142,7 +151,11 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 500px;
+  height: 250px;
+}
+
+.carousel {
+  background: url(../images/testimonial-bg.jpg) no-repeat;
 }
 
 
@@ -305,7 +318,7 @@ body {
   margin: 0 4px;
 }
 
-.contact-us a {
+.contact-icns a {
   background: url(../images/social-big.png) no-repeat;
   font-size: 0;
   height: 43px;
@@ -335,22 +348,6 @@ body {
   margin: 0 auto;
 }
 
-.left,
-.right {
-  width: 40%;
-  margin: 5px;
-  padding: 1em;
-  background: white;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
 .call p {
   float: left;
   padding: 0;
@@ -364,3 +361,70 @@ body {
 
 
 /* ------END of SPREAD THE WORLD SECTION*/
+
+
+/*-----------Slider-----------------*/
+
+.swiper-container {
+  width: 100%;
+  height: 438px;
+  background: #000;
+}
+
+.swiper-slide:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.swiper-slide:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url(../images/floor-plan-top.png), url(../images/floor-plan-bottom.png);
+  background-position: right top, left bottom;
+  background-repeat: no-repeat;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+  font-size: 21px;
+}
+
+.swiper-slide .text {
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+
+/*-----------End Slider-----------------*/
