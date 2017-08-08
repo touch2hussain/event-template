@@ -5,8 +5,8 @@ $(document).ready(function () {
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
         parallax: true,
-        speed: 600,
-        autoplay: 2500,
+        speed: 1000,
+        autoplay: 6000,
     });
 
     $(window).scroll(function () {

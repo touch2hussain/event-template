@@ -393,6 +393,7 @@ a {
   background-image: url(../images/floor-plan-top.png), url(../images/floor-plan-bottom.png);
   background-position: right top, left bottom;
   background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .swiper-slide {
