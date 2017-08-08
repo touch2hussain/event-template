@@ -3,6 +3,7 @@ body {
   color: #333;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
+  margin-top: 81px;
 }
 
 h1,
@@ -77,18 +78,6 @@ a {
 }
 
 
-/* GLOBAL STYLES
--------------------------------------------------- */
-
-
-/* Padding below the footer and lighter body text */
-
-body {
-  padding-bottom: 40px;
-  color: #5a5a5a;
-}
-
-
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -127,7 +116,7 @@ body {
 
 /* Carousel base class */
 
-.carousel {
+.carousel.testimonials {
   height: 250px;
   margin-bottom: 60px;
 }
@@ -142,7 +131,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 
-.carousel .item {
+.carousel.testimonials .item {
   height: 250px;
 }
 
@@ -154,8 +143,9 @@ body {
   height: 250px;
 }
 
-.carousel {
+.carousel.testimonials {
   background: url(../images/testimonial-bg.jpg) no-repeat;
+  background-size: cover;
 }
 
 
