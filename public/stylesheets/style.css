@@ -423,6 +423,10 @@ a {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 40px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .parallax-bg {
@@ -439,6 +443,7 @@ a {
 .swiper-slide .title {
   font-size: 41px;
   font-weight: 300;
+  margin-bottom: 15px;
 }
 
 .swiper-slide .subtitle {
@@ -531,6 +536,13 @@ span.title-divider {
 @media (max-width: 767px) {
   .service-inner {
     padding: 25px;
+  }
+  .swiper-container {
+    height: 350px;
+  }
+  .swiper-slide .title {
+    font-size: 28px;
+    margin-bottom: 15px;
   }
 }
 
