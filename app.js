@@ -1,3 +1,6 @@
+// to make sure relative paths are ok
+process.chdir(__dirname);
+
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -7,7 +10,6 @@ var bodyParser = require('body-parser');
 var compression = require('compression');
 
 var app = express();
-
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
