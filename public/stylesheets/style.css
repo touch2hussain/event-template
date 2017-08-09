@@ -522,6 +522,7 @@ a {
   font-weight: 400;
   font-size: 3.2rem;
   margin-bottom: 25px;
+  text-transform: uppercase;
 }
 
 .service-inner p,
@@ -569,11 +570,15 @@ span.title-divider {
     margin-bottom: 15px;
   }
   .service-inner h4 {
-    font-size: 2.8rem;
+    font-size: 2.4rem;
   }
   .service-inner p,
   .intro p {
     font-size: 1.5rem;
+  }
+  #gallery {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
