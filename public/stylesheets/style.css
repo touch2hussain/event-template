@@ -477,12 +477,35 @@ a {
 }
 
 .service-container {
-  background-image: url('../images/birthday.jpg');
   border-radius: 0;
   box-shadow: none;
-  background-size: cover;
+  background-size: contain;
   margin-bottom: 20px;
   border-color: #ddd;
+}
+
+.service-container h4 {
+  /* font-family: 'Roboto Mono', monospace; */
+}
+
+.service-container.birthday {
+  background-image: url('../images/birthday.jpg');
+}
+
+.service-container.wedding {
+  background-image: url('../images/wedding.jpg');
+}
+
+.service-container.mall {
+  background-image: url('../images/mall.jpg');
+}
+
+.service-container.corporate {
+  background-image: url('../images/corporate.png');
+}
+
+.service-container.shows {
+  background-image: url('../images/shows.jpg');
 }
 
 .service-inner {
