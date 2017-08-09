@@ -14,10 +14,15 @@ body {
   color: #FFCC00 !important;
 }
 
+<<<<<<< HEAD
 h1,
 h2,
 h3 {
   font-family: 'Oswald', sans-serif;
+=======
+.max-w-100 {
+  max-width: 100%;
+>>>>>>> 7f63ad453b195fb31ca5a9ca94b082e2948db507
 }
 
 .br-0 {
