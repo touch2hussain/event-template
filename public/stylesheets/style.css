@@ -6,20 +6,18 @@ body {
   margin-top: 81px;
 }
 
-h1,
-h2,
-h3 {
-  font-family: 'Oswald', sans-serif;
-}
-
 .navbar-brand {
-  height: 60px;
-  font-size: 25px;
   color: #FFCC00 !important;
 }
 
 .navbar-inverse .navbar-nav>li>a {
   color: #FFCC00 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Oswald', sans-serif;
 }
 
 .br-0 {
@@ -529,5 +527,17 @@ span.title-divider {
 @media (max-width: 767px) {
   .service-inner {
     padding: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .top-menu .navbar-brand {
+    height: 60px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .top-menu .navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 15px;
   }
 }
