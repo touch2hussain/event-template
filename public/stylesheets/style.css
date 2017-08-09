@@ -45,6 +45,10 @@ h3 {
   padding: 5px;
 }
 
+.p-0 {
+  padding: 0 !important;
+}
+
 .m-0 {
   margin: 0;
 }
@@ -447,5 +451,45 @@ a {
 @media (max-width: 767px) {
   .contact-us h1 {
     font-size: 38px;
+  }
+}
+
+.service-container {
+  background-image: url('../images/birthday.jpg');
+  border-radius: 0;
+  box-shadow: none;
+  background-size: cover;
+  margin-bottom: 20px;
+  border-color: #ddd;
+}
+
+.service-inner {
+  text-align: center;
+  padding: 50px;
+  background-repeat: repeat;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  color: #fff !important;
+}
+
+.service-inner h4 {
+  color: #fc0;
+  font-weight: 400;
+  font-size: 4.2rem;
+  margin-bottom: 25px;
+}
+
+.service-inner p {
+  font-size: 1.8rem;
+  line-height: 1.3;
+  margin-bottom: 55px;
+}
+
+.service-inner a {
+  color: #F8C301;
+}
+
+@media (max-width: 767px) {
+  .service-inner {
+    padding: 25px;
   }
 }
