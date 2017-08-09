@@ -479,9 +479,10 @@ a {
 .service-container {
   border-radius: 0;
   box-shadow: none;
-  background-size: contain;
+  background-size: cover;
   margin-bottom: 20px;
   border-color: #ddd;
+  background-repeat: no-repeat;
 }
 
 .service-container h4 {
@@ -519,7 +520,7 @@ a {
 .service-inner h4 {
   color: #fc0;
   font-weight: 400;
-  font-size: 4.2rem;
+  font-size: 3.2rem;
   margin-bottom: 25px;
 }
 
@@ -566,6 +567,13 @@ span.title-divider {
   .swiper-slide .title {
     font-size: 28px;
     margin-bottom: 15px;
+  }
+  .service-inner h4 {
+    font-size: 2.8rem;
+  }
+  .service-inner p,
+  .intro p {
+    font-size: 1.5rem;
   }
 }
 
