@@ -513,6 +513,7 @@ a {
   text-align: center;
   padding: 50px;
   background-repeat: repeat;
+  background-position: center;
   background-color: rgba(0, 0, 0, 0.7) !important;
   color: #fff !important;
 }
