@@ -8,8 +8,26 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var compression = require('compression');
-
+var compressible = require('compressible');
 var app = express();
+app.use(compression({
+  threshold: false,
+  filter: shouldCompress
+}));
+
+function shouldCompress(req, res) {
+  var type = res.get('Content-Type');
+  var reqEncode = req.get('Accept-Encoding');
+  console.log('%s', type);
+  console.log('%s', reqEncode);
+  if (!compressible(type)) {
+    console.log('%s not compressible', type);
+    return false
+  }
+
+  return compression.filter(req, res)
+  //return true;
+}
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -23,12 +41,10 @@ app.use(bodyParser.urlencoded({
   extended: false
 }));
 app.use(cookieParser());
-app.use(compression());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function (req, res, next) {
   res.sendFile(path.join(__dirname + '/public/home.html'));
-
 });
 
 // catch 404 and forward to error handler
