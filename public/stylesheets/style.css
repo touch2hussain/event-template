@@ -558,6 +558,81 @@ span.title-divider {
   display: inline-block;
 }
 
+.seconday-btn {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+  border: solid 1px #ffcc00;
+  color: #ffcc00;
+  background: transparent;
+}
+
+.service-container .btn:focus,
+.service-container .btn:hover {
+  color: #ffcc00;
+  text-decoration: none;
+  outline: none !important;
+}
+
+.seconday-btn.focus,
+.seconday-btn:hover {
+  color: #ffcc00 !important;
+  text-decoration: none;
+}
+
+
+/* optionally hide arrows until image is displayed */
+
+.mfp-s-loading .mfp-arrow {
+  display: none;
+}
+
+
+/* overlay at start */
+
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+
+/* overlay animate in */
+
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+
+
+/* overlay animate out */
+
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+
+/* content at start */
+
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+
+/* content animate it */
+
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+
+
+/* content animate out */
+
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}
+
 @media (max-width: 767px) {
   .service-inner {
     padding: 25px;
