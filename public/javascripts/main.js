@@ -29,28 +29,45 @@ $(document).ready(function () {
     var groups = {};
     var items = {
         1: [{
-                src: 'http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Peter_%26_Paul_fortress_in_SPB_03.jpg/800px-Peter_%26_Paul_fortress_in_SPB_03.jpg',
-                title: 'Peter & Paul fortress in SPB'
+                src: '../images/birthday/hmevents_birthday1.jpg',
+                title: 'HM Events Birthday Gallery',
+                alt: 'India'
             },
             {
-                src: 'http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Peter_%26_Paul_fortress_in_SPB_03.jpg/800px-Peter_%26_Paul_fortress_in_SPB_03.jpg',
+                src: '../images/birthday/hmevents_birthday2.jpg',
                 title: 'india'
             },
             {
-                src: 'http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Peter_%26_Paul_fortress_in_SPB_03.jpg/800px-Peter_%26_Paul_fortress_in_SPB_03.jpg',
+                src: '../images/birthday/hmevents_birthday3.jpg',
                 title: 'america'
             },
+            {
+                src: '../images/birthday/hmevents_birthday4.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/birthday/hmevents_birthday5.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/birthday/hmevents_birthday6.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/birthday/hmevents_birthday7.jpg',
+                title: 'america'
+            }
         ],
-        2: [{
-                src: 'http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Peter_%26_Paul_fortress_in_SPB_03.jpg/800px-Peter_%26_Paul_fortress_in_SPB_03.jpg',
+        5: [{
+                src: '../images/creative/hmevents_creative1.jpg',
                 title: 'Peter'
             },
             {
-                src: 'http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Peter_%26_Paul_fortress_in_SPB_03.jpg/800px-Peter_%26_Paul_fortress_in_SPB_03.jpg',
+                src: '../images/creative/hmevents_creative2.jpg',
                 title: 'demo india'
             },
             {
-                src: 'http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Peter_%26_Paul_fortress_in_SPB_03.jpg/800px-Peter_%26_Paul_fortress_in_SPB_03.jpg',
+                src: '../images/creative/hmevents_creative3.jpg',
                 title: 'demo america'
             },
         ]
