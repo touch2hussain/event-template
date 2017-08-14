@@ -58,8 +58,88 @@ $(document).ready(function () {
                 title: 'america'
             }
         ],
+        3: [{
+                src: '../images/mall/hmevents_mall_events1.jpg',
+                title: 'HM Events 2017 New Year Party',
+                alt: 'India'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events2.jpg',
+                title: 'india'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events3.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events4.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events5.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events6.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events7.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events8.jpg',
+                title: 'america'
+            }
+        ],
         5: [{
-                src: '../images/creative/hmevents_creative1.jpg',
+                src: '../images/shows/hmevents_shows1.jpg',
+                title: 'HM Events 2017 New Year Party',
+                alt: 'India'
+            },
+            {
+                src: '../images/shows/hmevents_shows2.jpg',
+                title: 'india'
+            },
+            {
+                src: '../images/shows/hmevents_shows3.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/shows/hmevents_shows4.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/shows/hmevents_shows5.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/shows/hmevents_shows6.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/shows/hmevents_shows7.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/shows/hmevents_shows8.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/shows/hmevents_shows9.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/shows/hmevents_shows10.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/shows/hmevents_shows11.jpg',
+                title: 'america'
+            }
+        ],
+        6: [{
+                src: '../images/shows/hmevents_shows8.jpg',
                 title: 'Peter'
             },
             {
