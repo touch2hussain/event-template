@@ -635,6 +635,16 @@ span.title-divider {
   opacity: 0;
 }
 
+.footer {
+  background-color: #101010;
+  text-align: center;
+  color: #ffcc00;
+  font-size: 13px;
+  padding: 15px 0;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.8px;
+}
+
 @media (max-width: 767px) {
   .service-inner {
     padding: 25px;
@@ -664,12 +674,17 @@ span.title-divider {
 
 @media (min-width: 768px) {
   .top-menu .navbar-brand {
-    height: 60px;
     font-size: 25px;
     line-height: 30px;
   }
   .top-menu .navbar-nav>li>a {
     padding-top: 20px;
     padding-bottom: 15px;
+  }
+  .footer p:first-of-type {
+    float: left;
+  }
+  .footer p.right {
+    float: right;
   }
 }
