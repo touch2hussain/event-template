@@ -60,127 +60,208 @@ $(document).ready(function () {
     var groups = {};
     var items = {
         1: [{
-            src: '../images/birthday/hmevents_birthday1.jpg',
-            title: 'HM Events Birthday Gallery',
-            alt: 'India'
-        },
-        {
-            src: '../images/birthday/hmevents_birthday2.jpg',
-            title: 'india'
-        },
-        {
-            src: '../images/birthday/hmevents_birthday3.jpg',
-            title: 'america'
-        },
-        {
-            src: '../images/birthday/hmevents_birthday4.jpg',
-            title: 'america'
-        },
-        {
-            src: '../images/birthday/hmevents_birthday5.jpg',
-            title: 'america'
-        },
-        {
-            src: '../images/birthday/hmevents_birthday6.jpg',
-            title: 'america'
-        },
-        {
-            src: '../images/birthday/hmevents_birthday7.jpg',
-            title: 'america'
-        }
+                src: '../images/birthday/hmevents_birthday1.jpg',
+                title: 'HM Events Birthday Gallery',
+                alt: 'India'
+            },
+            {
+                src: '../images/birthday/hmevents_birthday2.jpg',
+                title: 'india'
+            },
+            {
+                src: '../images/birthday/hmevents_birthday3.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/birthday/hmevents_birthday4.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/birthday/hmevents_birthday5.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/birthday/hmevents_birthday6.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/birthday/hmevents_birthday7.jpg',
+                title: 'america'
+            }
+        ],
+        2: [{
+                src: '../images/wedding/hmevents_wedding1.jpg',
+                title: 'HM Events Wedding Gallery',
+            },
+            {
+                src: '../images/wedding/hmevents_wedding2.jpg',
+                title: 'HM Events Wedding Gallery'
+            },
+            {
+                src: '../images/wedding/hmevents_wedding3.jpg',
+                title: 'HM Events Wedding Gallery'
+            },
+            {
+                src: '../images/wedding/hmevents_wedding4.jpg',
+                title: 'HM Events Wedding Gallery'
+            },
+            {
+                src: '../images/wedding/hmevents_wedding5.jpg',
+                title: 'HM Events Wedding Gallery'
+            },
+            {
+                src: '../images/wedding/hmevents_wedding6.jpg',
+                title: 'HM Events Wedding Gallery'
+            },
+            {
+                src: '../images/wedding/hmevents_wedding7.jpg',
+                title: 'HM Events Wedding Gallery'
+            },
+            {
+                src: '../images/wedding/hmevents_wedding8.jpg',
+                title: 'HM Events Wedding Gallery'
+            },
+            {
+                src: '../images/wedding/hmevents_wedding9.jpg',
+                title: 'HM Events Wedding Gallery'
+            },
+            {
+                src: '../images/wedding/hmevents_wedding10.jpg',
+                title: 'HM Events Wedding Gallery'
+            },
+            {
+                src: '../images/wedding/hmevents_wedding11.jpg',
+                title: 'HM Events Wedding Gallery'
+            },
+            {
+                src: '../images/wedding/hmevents_wedding12.jpg',
+                title: 'HM Events Wedding Gallery'
+            },
+            {
+                src: '../images/wedding/hmevents_wedding13.jpg',
+                title: 'HM Events Wedding Gallery'
+            }
         ],
         3: [{
-            src: '../images/mall/hmevents_mall_events1.jpg',
-            title: 'HM Events 2017 New Year Party',
-            alt: 'India'
-        },
-        {
-            src: '../images/mall/hmevents_mall_events2.jpg',
-            title: 'india'
-        },
-        {
-            src: '../images/mall/hmevents_mall_events3.jpg',
-            title: 'america'
-        },
-        {
-            src: '../images/mall/hmevents_mall_events4.jpg',
-            title: 'america'
-        },
-        {
-            src: '../images/mall/hmevents_mall_events5.jpg',
-            title: 'america'
-        },
-        {
-            src: '../images/mall/hmevents_mall_events6.jpg',
-            title: 'america'
-        },
-        {
-            src: '../images/mall/hmevents_mall_events7.jpg',
-            title: 'america'
-        },
-        {
-            src: '../images/mall/hmevents_mall_events8.jpg',
-            title: 'america'
-        }
+                src: '../images/mall/hmevents_mall_events1.jpg',
+                title: 'HM Events 2017 New Year Party',
+                alt: 'India'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events2.jpg',
+                title: 'HM Events Mall Events Gallery'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events3.jpg',
+                title: 'HM Events Mall Events Gallery'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events4.jpg',
+                title: 'HM Events Mall Events Gallery'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events5.jpg',
+                title: 'HM Events Mall Events Gallery'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events6.jpg',
+                title: 'HM Events Mall Events Gallery'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events7.jpg',
+                title: 'HM Events Mall Events Gallery'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events8.jpg',
+                title: 'HM Events Mall Events Gallery'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events9.jpg',
+                title: 'HM Events Mall Events Gallery'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events10.jpg',
+                title: 'HM Events Mall Events Gallery'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events11.jpg',
+                title: 'HM Events Mall Events Gallery'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events12.jpg',
+                title: 'HM Events Mall Events Gallery'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events13.jpg',
+                title: 'HM Events Mall Events Gallery'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events14.jpg',
+                title: 'HM Events Mall Events Gallery'
+            },
+            {
+                src: '../images/mall/hmevents_mall_events15.jpg',
+                title: 'HM Events Mall Events Gallery'
+            }
         ],
         5: [{
-            src: '../images/shows/hmevents_shows1.jpg',
-            title: 'HM Events 2017 New Year Party',
-            alt: 'India'
-        },
-        {
-            src: '../images/shows/hmevents_shows2.jpg',
-            title: 'india'
-        },
-        {
-            src: '../images/shows/hmevents_shows3.jpg',
-            title: 'america'
-        },
-        {
-            src: '../images/shows/hmevents_shows4.jpg',
-            title: 'america'
-        },
-        {
-            src: '../images/shows/hmevents_shows5.jpg',
-            title: 'america'
-        },
-        {
-            src: '../images/shows/hmevents_shows6.jpg',
-            title: 'america'
-        },
-        {
-            src: '../images/shows/hmevents_shows7.jpg',
-            title: 'america'
-        },
-        {
-            src: '../images/shows/hmevents_shows8.jpg',
-            title: 'america'
-        },
-        {
-            src: '../images/shows/hmevents_shows9.jpg',
-            title: 'america'
-        },
-        {
-            src: '../images/shows/hmevents_shows10.jpg',
-            title: 'america'
-        },
-        {
-            src: '../images/shows/hmevents_shows11.jpg',
-            title: 'america'
-        }
+                src: '../images/shows/hmevents_shows1.jpg',
+                title: 'HM Events 2017 New Year Party',
+                alt: 'India'
+            },
+            {
+                src: '../images/shows/hmevents_shows2.jpg',
+                title: 'india'
+            },
+            {
+                src: '../images/shows/hmevents_shows3.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/shows/hmevents_shows4.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/shows/hmevents_shows5.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/shows/hmevents_shows6.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/shows/hmevents_shows7.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/shows/hmevents_shows8.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/shows/hmevents_shows9.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/shows/hmevents_shows10.jpg',
+                title: 'america'
+            },
+            {
+                src: '../images/shows/hmevents_shows11.jpg',
+                title: 'america'
+            }
         ],
         6: [{
-            src: '../images/shows/hmevents_shows8.jpg',
-            title: 'Peter'
-        },
-        {
-            src: '../images/creative/hmevents_creative2.jpg',
-            title: 'demo india'
-        },
-        {
-            src: '../images/creative/hmevents_creative3.jpg',
-            title: 'demo america'
-        },
+                src: '../images/shows/hmevents_shows8.jpg',
+                title: 'Peter'
+            },
+            {
+                src: '../images/creative/hmevents_creative2.jpg',
+                title: 'demo india'
+            },
+            {
+                src: '../images/creative/hmevents_creative3.jpg',
+                title: 'demo america'
+            },
         ]
 
     }
